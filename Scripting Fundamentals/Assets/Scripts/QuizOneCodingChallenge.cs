@@ -11,7 +11,9 @@ public class QuizOneCodingChallenge : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        IncreseScore();
+        IncreaseScore();
+        PrintPlayerName();
+        DecreaseHealth();
     }
 
     // Update is called once per frame
@@ -20,7 +22,7 @@ public class QuizOneCodingChallenge : MonoBehaviour
         
     }
 
-    private void IncreseScore()
+    private void IncreaseScore()
     {
         Score = Score + 10;
     }
